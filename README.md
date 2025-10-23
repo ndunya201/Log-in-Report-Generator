@@ -11,9 +11,9 @@ This project simulates and analyzes user login and logout events. It helps ident
 ## How It Works
 1. **Event Class** – Represents an event with attributes such as date, type, machine, and user.
 2. **Functions:**
-   - `get_event_date(event): Returns the event date to help sort events chronologically
-   - `current_users(events): Processes all events to determine currently logged-in users.
-   - `generate_report(machines): Prints a clean summary showing users active on each machine. 
+   - get_event_date(event): Returns the event date to help sort events chronologically
+   - current_users(events): Processes all events to determine currently logged-in users.
+   - generate_report(machines): Prints a clean summary showing users active on each machine. 
 
 ---
 
@@ -45,7 +45,7 @@ webserver.local: lane, jordan
 
 ## Key Learnings
 
-- `Sorting objects using custom functions
-- `Managing nested data structures (dictionary of sets)
-- `Handling inconsistent data (logout without login)
-- `Generating summary reports programmatically
+- Sorting objects using custom functions
+- Managing nested data structures (dictionary of sets)
+- Handling inconsistent data (logout without login)
+- Generating summary reports programmatically
